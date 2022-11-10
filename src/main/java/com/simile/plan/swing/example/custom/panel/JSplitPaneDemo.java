@@ -3,6 +3,7 @@ package com.simile.plan.swing.example.custom.panel;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JSplitPane;
+import javax.swing.JTextArea;
 import javax.swing.WindowConstants;
 
 /**
@@ -21,8 +22,8 @@ public class JSplitPaneDemo {
         JSplitPane splitPane = new JSplitPane();
 
         // 设置左右两边显示的组件
-        splitPane.setLeftComponent(new JButton("左边按钮"));
-        splitPane.setRightComponent(new JButton("右边按钮"));
+        splitPane.setLeftComponent(new JTextArea("左边按钮"));
+        splitPane.setRightComponent(new JTextArea("右边按钮"));
 
         // 分隔条上显示快速 折叠/展开 两边组件的小按钮
         splitPane.setOneTouchExpandable(true);

@@ -54,6 +54,12 @@ public class ListDemo extends JPanel
         listModel.addElement("Jane Doe");
         listModel.addElement("John Smith");
         listModel.addElement("Kathy Green");
+        listModel.addElement("Kathy Green");
+        listModel.addElement("Kathy Green");
+        listModel.addElement("Kathy Green");
+        listModel.addElement("Kathy Green");
+        listModel.addElement("Kathy Green");
+        listModel.addElement("Kathy Green6");
 
         //Create the list and put it in a scroll pane.
         list = new JList(listModel);
